@@ -50,8 +50,99 @@ body{
     border-radius: 14px;
     cursor: pointer;
 }
+/* main styles */
+main{
+    margin: 60px 100px;
 
-
+}
+/* pillars section styles */
+.pillars-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.pillars-container{
+    display: flex;
+    gap: 20px;
+}
+.pillars-content{
+    background-color: #fbdede;
+    padding: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+/* Futur Styles */
+.Future-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.Future-dspt{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.Future-container{
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+.Future-content-three{
+    background-color: rgb(201, 212, 213);
+    padding: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.btn-two{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: 300;
+    border-radius: 12px;
+}
+.Future-content-four{
+    background-color: rgb(129, 158, 160);
+    padding: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.btn-three{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(154, 120, 120);
+    color: white;
+    font-weight: 300;
+    border-radius: 12px;
+}
+.Future-content-five{
+    background-color: rgb(240, 164, 204);
+    padding: 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px black;
+}
+.btn-four{
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(66, 61, 54);
+    color: white;
+    font-weight: 300;
+    border-radius: 12px;
+}
+/* Quoation styles */
+.quoation{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: white;
+    padding: 10px 10px;
+    margin-top: 60px;
+}
+.sub-title{
+    padding: 10px 10px;
+}
 
 
 
@@ -86,6 +177,11 @@ body{
        
     
     }
+    .sub-banner-title{
+        font-size: 20px;
+        position: relative;
+        right: 18px;
+    }
     .banner-title{
         font-size: 25px;
         width: 100%;
@@ -103,5 +199,40 @@ body{
     .img{
         width: 100%;
        
+    }
+    /* main */
+    main{
+        margin: 0px;
+        padding: 10px;
+    }
+    /* pillars styles */
+    .pillars-container{
+        flex-direction: column;
+    }
+    .pillars-content{
+        width: 80%;
+        padding: 10px 20px;
+        margin: auto;
+    }
+    .pillars-title{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    /* Futures styles */
+    .Future-title{
+        font-size: 20px;
+    }
+    
+    .Future-container{
+        flex-direction: column;
+        width: 90%;
+        margin:40px auto;
+    }
+    .Future-dspt{
+        margin: 0px auto;
+        width: 90%;
+    }
+    .Future-title{
+        margin-top: 40px;
     }
 }
