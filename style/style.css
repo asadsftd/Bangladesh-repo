@@ -1,6 +1,7 @@
 /* body */
 body{
-    background-color: whitesmoke;
+    background-color: rgb(250, 245, 245);
+    cursor: pointer;
 }
 /* heto-section */
 .hero-section{
@@ -169,7 +170,7 @@ select{
     justify-content: space-between;
     
     padding: 0px 20px;
-    background-color: rgb(243, 237, 237);
+    background-color: rgb(254, 252, 252);
 }
 .option-card-two{
     position: relative;
@@ -186,6 +187,60 @@ select{
 .rltv-two{
     position: relative;
     top: -5px;
+}
+/* Donate Styles */
+.donated{
+    margin-top: 60px;
+}
+.donate-title, .donate-dspt{
+    text-align: center;
+}
+.donate-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.donate-dspt{
+    width: 800px;
+    margin: auto;
+}
+.donate-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.donate-money{
+    font-size: 25px;
+    font-weight: 600;
+}
+ .donate-card-one, .donate-card-three{
+    background-color: rgb(197, 191, 191);
+    padding: 10px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px rgb(243, 235, 235);
+}
+.donate-card-two, .donate-card-four{
+    background-color: rgb(244, 164, 164);
+    padding: 10px 50px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 4px rgb(243, 235, 235);
+}
+/* donate input */
+.input{
+    height: 40px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(213, 213, 213);
+    border-radius: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+.input-donate{
+    width: 90%;
+    margin:30px auto;
+}
+.btn-six{
+    text-align: center;
 }
 
 
@@ -285,6 +340,8 @@ select{
     }
     .card-container{
         flex-direction: column;
+       background-color: whitesmoke;
+       
     }
     select{
         width: 100%;
@@ -302,4 +359,28 @@ select{
     h3{
         font-size: 20px;
     }
+    /* Donated */
+    .donated{
+        position: relative;
+        top: 60px;
+    }
+ .donate-container{
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    text-align: center;
+    margin-top: 60px;
+ }
+ .donate-title{
+    font-size: 22px;
+ }
+ .donate-dspt{
+    width: 90%;
+    margin: auto;
+ }
+ .input-donate{
+    position: relative;
+    right: 10px;
+ }
 }
