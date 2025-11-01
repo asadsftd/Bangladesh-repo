@@ -291,9 +291,9 @@ select{
     }
     .banner-title{
         font-size: 25px;
-        width: 100%;
+        width:90%;
         position: relative;
-        right: 8px;
+        right: px;
         text-align: center;
     }
     .btn-primary{
@@ -353,6 +353,7 @@ select{
        
        
     }
+   
     select{
         width: 100%;
     }
@@ -384,6 +385,10 @@ select{
     position: relative;
     left: -1px;
    
+ }
+ .btn-btn{
+    font-size: ;
+    border-radius: 10px;
  }
  .donate-title{
     font-size: 22px;
