@@ -16,7 +16,7 @@ body{
 }
 .btn{
     padding: 15px 30px;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     cursor: pointer;
     border-radius: 12px;
@@ -143,6 +143,50 @@ main{
 .sub-title{
     padding: 10px 10px;
 }
+/* option Styles */
+.option-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(165, 213, 213);
+    padding: 10px 10px;
+    
+}
+.opinion-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.option-sub-title{
+    border: 2px solid rgb(225, 205, 205);
+    padding: 10px 10px;
+}
+select{
+    border: 2px solid rgb(225, 209, 209);
+    padding: 10px 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0px 20px;
+    background-color: rgb(243, 237, 237);
+}
+.option-card-two{
+    position: relative;
+    top: 50px;
+}
+.rltv-one{
+    position: relative;
+    top: -30px;
+}
+.rltv-three{
+    position: relative;
+    top: 20px;
+}
+.rltv-two{
+    position: relative;
+    top: -5px;
+}
 
 
 
@@ -234,5 +278,28 @@ main{
     }
     .Future-title{
         margin-top: 40px;
+    }
+    /* opinio */
+    .opinion{
+        margin-top: 40px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    select{
+        width: 100%;
+    }
+    .opinion-title{
+        font-size: 20px;
+    }
+    .option-container{
+        padding:0px 10px;
+        
+    }
+    .opinio-sub-title{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 20px;
     }
 }
